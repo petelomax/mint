@@ -23,7 +23,7 @@ I might add var click, rank, entries to filterList(), so that the line becomes
 and likewise displayDetails():
 <pre>
   "Rank: " + rank + "&lt;br&gt;Name: " + name + "&lt;br&gt;Entries: " + entries;
- </pre>
+</pre>
 xSorter should now be renamed tagSorter(), and it should test for ti==tj and fetch/compare on names rather than yield 0.
 
 Obviously the output is very spartan and would be vastly improved with some formatting, images and explanatory text.
