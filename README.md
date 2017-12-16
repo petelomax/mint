@@ -6,7 +6,7 @@ Loads an xml file and displays it as a table, which can be filtered and sorted o
 Clicking on an entry does not open a new page, but does update the details area.
 Never done anything quite like this before, it was quite a fun little challenge.
 
-Notes
+Notes:
 Ideally I would rather say onclick("RANK") at the top of filterList(), but the syntax escaped me.
 Likewise I suspect there is an easier way to initialise tags. (I am not a Javascript expert!)
 I will also admit that I do not really understand the [0].childNodes[0].nodeValue part.
