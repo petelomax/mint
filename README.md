@@ -18,7 +18,7 @@ function getElem(i,name) {
 }</pre>
 I might add var click, rank, entries to filterList(), so that the line becomes
 <pre>
-  table += "<tr " + click + "><td>" + rank + "&lt;/td&gt;&lt;td&gt" + lang + "</td><td>" + entries + "</td></tr>";
+  table += "&lt;tr " + click + "&gt;&lt;td&gt;" + rank + "&lt;/td&gt;&lt;td&gt" + lang + "&lt;/td&gt;&lt;td&gt;" + entries + "&lt;/td*gt;&lt;/tr&gt;";
 </pre>
 and likewise displayDetails():
 <pre>
