@@ -23,7 +23,7 @@ function getElem(i,name) {
 I might add var click, rank, entries to filterList(), so that the line becomes
   table += "<tr " + click + "><td>" + rank + "</td><td>" + lang + "</td><td>" + entries + "</td></tr>";
 
-and likewise displayDetails() ==> "Rank: " + rank + "<br>Name: " + name + "<br>Entries: " + entries;
+and likewise displayDetails() ==> "Rank: " + rank + "&lt;br&gt;Name: " + name + "&lt;br&gt;Entries: " + entries;
 
 xSorter should now be renamed tagSorter(), and it should probably test for ti==tj and fetch/compare 
 on names rather than yield 0.
